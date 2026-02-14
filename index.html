@@ -1,112 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Feliz 2 Meses</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-  <style>
-    .fadeIn { animation: fadeIn 2s ease-out forwards; }
-    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-  </style>
-  <script>
-    function toggleModal(id) {
-      const modal = document.getElementById(id);
-      modal.classList.toggle('hidden');
-    }
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Briyith Nayeli ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background: linear-gradient(135deg,#ff4b8a,#ff758c,#ff7eb3);
+    color:white;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+h1{
+    font-family:'Great Vibes',cursive;
+    font-size:60px;
+    margin-top:40px;
+}
+
+h2{
+    font-weight:400;
+    margin-bottom:30px;
+}
+
+.message{
+    max-width:900px;
+    margin:40px auto;
+    font-size:20px;
+    padding:40px;
+    background:rgba(255,255,255,0.15);
+    border-radius:25px;
+    backdrop-filter:blur(12px);
+    line-height:1.8;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    padding:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.gallery img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#ff4b8a;
+    font-weight:600;
+    cursor:pointer;
+    margin:40px 0 60px 0;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+.heart{
+    position:fixed;
+    color:white;
+    animation:float 6s linear infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(100vh) scale(0.5); opacity:0;}
+    50%{opacity:1;}
+    100%{transform:translateY(-10vh) scale(1.2); opacity:0;}
+}
+</style>
 </head>
-<body class="relative text-gray-800 font-sans">
-  <!-- Fondo degradado debajo -->
-  <div class="absolute inset-0 bg-gradient-to-b from-pink-100 to-pink-200"></div>
 
-  <!-- Fondo de amor semi-transparente -->
-  <div
-    class="absolute inset-0 bg-center bg-cover"
-    style="background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-red-stereo-border-love-valentines-day-background-picture-image_905497.jpg'); opacity: 0.2;"
-  ></div>
-  <div class="max-w-5xl mx-auto p-6 space-y-10">
-    <header class="text-center space-y-4">
-      <h1 class="text-5xl font-bold text-pink-700 fadeIn">Feliz 2 Meses, Amor de mi Vida</h1>
-      <p class="italic text-lg text-pink-800">Un recorrido por nuestro amor eterno 💖</p>
-    </header>
+<body>
 
-    <section class="bg-white p-6 rounded-2xl shadow-xl space-y-4 fadeIn">
-      <div class="space-y-4">
-        <p class="text-lg leading-relaxed">Amor de mi vida, mi reina hermosa:</p>
-        <p class="text-lg leading-relaxed">Hoy cumplimos dos meses como novios… y no encuentro palabras suficientes para expresar lo que siento dentro de mí. Parece increíble que haya pasado tan poco tiempo desde que comenzamos este camino juntos, porque lo que tú y yo compartimos se siente tan fuerte, tan real, tan lleno de amor, que pareciera que llevamos toda una vida amándonos.</p>
-        <p class="text-lg leading-relaxed">A veces cierro los ojos y me acuerdo de aquel primer momento en el que me atreví a hablarte, a pedirte tu número… sin imaginar que estaba dando el primer paso hacia lo más hermoso que me ha pasado: tú. Ese día cambió mi vida para siempre. Porque en ti encontré todo lo que soñé y mucho más. Porque elegí conocerte, y sin saberlo, también elegí a la mujer con la que quiero pasar el resto de mis días.</p>
-        <p class="text-lg leading-relaxed">Desde que llegaste, amor, todo tiene más sentido. No hay un solo instante en el que no te piense, en el que no te extrañe, en el que no agradezca por tenerte. Eres mi paz, mi alegría, mi refugio. Eres ese abrazo que me reconstruye, esa sonrisa que me da vida, esa voz que me llena el alma. Eres tú… tan tú… tan mía… y yo tan tuyo.</p>
-        <p class="text-lg leading-relaxed">Y aunque solo llevemos dos meses como novios, en mi corazón no hay duda alguna: tú eres mi futura esposa. La madre de mis hijos. Mi compañera de vida. Mi hogar. Yo ya me vi contigo en el altar, con lágrimas en los ojos y una promesa eterna en los labios. Me vi construyendo un hogar a tu lado, criando juntos una familia llena de amor, enseñando a nuestros hijos que el amor verdadero sí existe… porque tú y yo somos prueba de eso.</p>
-        <p class="text-lg leading-relaxed">Yo quiero todo contigo, amor. Cada mañana, cada noche, cada risa, cada llanto, cada logro y cada tropiezo. Quiero vivirlo todo contigo. Quiero que tus sueños se vuelvan también los míos, y que caminemos juntos hacia un futuro lleno de amor, respeto, alegría y complicidad. Tú y yo, de la mano, siempre.</p>
-        <p class="text-lg leading-relaxed">Gracias por tanto, mi amor. Por tu dulzura, tu ternura, tu paciencia. Gracias por confiar en mí, por abrirme tu corazón, por hacerme sentir el hombre más afortunado del mundo. Prometo cuidar este amor como el tesoro más valioso de mi vida, porque lo eres tú.</p>
-        <p class="text-lg leading-relaxed">No soy perfecto, y puede que me equivoque a veces, pero cada error lo convierto en aprendizaje, porque tú me inspiras a ser mejor. Gracias por enseñarme que amar también es elegir… y yo te elijo a ti, hoy, mañana y siempre.</p>
-        <p class="text-lg leading-relaxed">Hoy celebramos dos meses como novios, pero yo ya celebro una vida contigo. Celebro todo lo que estamos construyendo, celebro haberte encontrado, celebro saber con certeza que contigo me quiero casar, que contigo quiero formar una familia, que tú eres la única persona con la que me imagino el resto de mis días.</p>
-        <p class="text-lg leading-relaxed">Te amo con todo mi corazón, mi novia, mi futura esposa, la madre de mis hijos, mi todo.</p>
-        <p class="text-lg leading-relaxed font-semibold">Con todo el amor que tengo y más,<br>Tu Kevin.</p>
-      </div>
-    </section>
+<h1>Feliz San Valentín 💖</h1>
+<h2>Para Briyith Nayeli Rojas Ordóñez, el amor de mi vida</h2>
 
-    <section>
-      <h2 class="text-3xl font-bold text-center text-pink-700 mb-6 fadeIn">Nuestros Momentos Juntos</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Cards dinámicas -->
-      </div>
-    </section>
+<div class="message">
+Mi amor… mi reina… mi vida 💞<br><br>
 
-    <footer class="text-center mt-12 fadeIn">
-      <p class="text-lg font-semibold text-pink-800">Todos esos momentos que hemos vivido juntos los llevo en mi mente como una película que repito todas las noches antes de dormir. No los cambiaría por nada en el mundo. Tú me has dado la felicidad más pura, más real… y solo tú has logrado hacerme sentir especial, amado, completo. Gracias por regalarme lo mejor de ti.<br><br>Gracias por hacerme sentir que este amor es verdadero. Han sido los mejores dos meses de mi vida… y sé que vienen muchísimos más. Te amo con toda mi alma.</p>
-      <p class="mt-2 text-pink-700">Te amo con toda mi alma. Eres la mejor mujer del mundo.<br>De tu chico que te ama con todo el corazón, para la única que logró lo que nadie más pudo: tú, el amor de mi vida.</p>
-    </footer>
-  </div>
+Hoy quiero recordarte lo especial que eres para mí. Desde el primer día que llegaste a mi vida algo cambió dentro de mí. 
+Lo que comenzó como algo sencillo se convirtió en lo más bonito que me ha pasado. 
+Cada risa contigo, cada abrazo, cada mirada… todo se volvió mi lugar favorito.<br><br>
 
-  <script>
-    const momentos = [
-      { id: 'momento1', titulo: 'Nuestro primer encuentro', imagen: '/imagenes/primer.jpg', texto: `Ese primer encuentro que lo cambió todo…
-Nunca te lo confesé así, pero ese día que salimos por primera vez, los nervios me tenían temblando por dentro. No sabía cómo actuar, qué decir… solo sabía que tú ibas a estar ahí y que eso ya lo hacía un momento especial. Pero en cuanto te vi llegar, todo dentro de mí se calmó. Fue como si el mundo se detuviera y sólo existieras tú. Me sentí en paz, seguro, feliz. Sentí que estaba exactamente donde tenía que estar.
-Desde esa noche supe que estar lejos de ti no era una opción. Me di cuenta de que mi bienestar dependía de ti, de tenerte, de verte sonreír, de sentirte cerca. Recuerdo ese instante en que me dabas salchipapas con un tenedor, y mientras comía, te miraba directo a los ojos. No pensé “qué bonitos ojos”… pensé: “quiero ver estos ojos todos los días de mi vida, quiero que siempre brillen así y quiero ser yo quien los haga brillar.” Ese día, sin saberlo, empezó esta historia de amor que no ha hecho más que crecer. Ese día me empecé a enamorar… y hoy estoy completamente entregado a ti.` },
-      { id: 'momento2', titulo: 'La tarde de piscina', imagen: '/imagenes/piscina.jpg', texto: `Nuestra segunda salida fue un sueño. En esa piscina, abrazarte bajo el agua, tenerte tan cerquita, sentir que tu piel rozaba la mía y que nuestros corazones estaban perfectamente sincronizados… fue mágico. Yo moría de ganas de besarte ahí mismo, de gritarle al mundo que eras mía, pero tú, con esa ternura que te caracteriza, querías guardar lo nuestro con cuidado.
-Después compartimos más tiempo juntos, entre besos robados y caricias cómplices que solo nosotros entendíamos. Y aunque hay momentos que prefiero no escribir pero sí guardar, tú y yo sabemos lo importante que fue ese día. Fue una conexión que iba más allá del cuerpo… era el alma la que hablaba.` },
-      { id: 'momento3', titulo: 'Momento de felicidad', imagen: '/imagenes/segundo.jpg', texto: `Todos mis momentos de felicidad siempre han sido junto a ti y se reflejan en esta imagen, siempre aprovechamos cada momento así sea poco para compartir juntos, la felicidad que sentimos no se compara con nada que sienta haciendo cualquier otra cosa, porque todo que lo que hago contigo lo siento por mil y es algo que siento que es genuino, a mi no me gustaban las fotos y mira todas las fotos que tenemos juntos, ami no me gustaba mandar audios y mira todos los audios que te he enviado yo, eso solo lo pudiste hacer tu, tu me hiciste cambiar y estoy super feliz con este cambio que he tenido y mas porque lo hize al lado de la persona que mas amo en este mundo` },
-      { id: 'momento4', titulo: 'Día de juegos', imagen: '/imagenes/trercero.jpg', texto: `Hablando de momentos maravillosos y mágicos como olvidar este dia que tuvimos, en donde hicimos tantas cosas pero lo más importante es que disfrutamos el estar el uno con el otro, me encanto subirme a esos juegos allá contigo a tu lado, jugar el hockey de mesa juntos me hizo llorar por dentro, subirnos en ese barco y sentir tanta adrenalina y verte como tu te sentías yo te agarraba porque eso es lo que yo quiero agarrarte y nunca soltarte, y como olvidar ese momento de diversión en los carros chocones.
-pero también compartimos otro momento que fue cuando comimos, yo solo te veía sentadita junto a mi dándome amor y comidita y cuando fuimos para el baño y hicimos una cosa que no es de mencionar, ese dia fue perfecto de cualquier manera que lo veamos, reímos, jugamos y comimos y lo mejor junto con una compañia perfecta.` },
-      { id: 'momento5', titulo: 'El culto inesperado', imagen: '/imagenes/cuarto.jpg', texto: `Ese día en que pensé que no nos veríamos ni un minuto, fuimos a un culto juntos asi no seamos de esa religión, no me importa eso lo que me importo fue tenerte a mi lado y en ese culto mientras tu sentias como latia mi corazon y me lo acariciabas yo me sentía en paz porque estaba junto a la mujer de mis sueños y como no estar enamorado si tu misma puedes ver esos ojitos tan hermosos y ojala me puedas comprender del porque yo soy así contigo y iria a cualquier  lugar que estés.` },
-      { id: 'momento6', titulo: 'Un día entero juntos', imagen: '/imagenes/quinto.jpg', texto: `Este fue nuestro casi último momento que hemos compartido juntos, este fue el dia que mas he disfrutado estar contigo porque estuvimos desde la mañana hasta la tarde sin preocuparnos de nada, solo disfrutar, y como no olvidar cuando casi nos ahogamos juntos, en este momento me sentí muy contento porque me dejaron compartir contigo y ellos me dejan pasar tiempo a tu lado, y ese tiempo para mi es oro, se que tuve mi mal momento allá pero eso no me detuvo para irme a seguir disfrutando junto a ti, lanzarnos de esa piedra juntos, irnos para el lado del agua caliente los dos juntitos allá agarraditos de la mano, tantos besos que nos dimos, tantos abrazos que nos dimos, tantas miradas que mis ojos cruzaban a los tuyos porque verte alla feliz me hacía muy feliz por dentro y que esos momentos de felicidad tuyos sucedan cuando estoy contigo me hace sentir aún mejor.` },
-      { id: 'momento7', titulo: 'La noche más especial', imagen: '/imagenes/septimo.jpg', texto: `Este ya seria el ultimo momento que vivimos juntos, esa fue una noche muy especial para mi corazón porque veníamos de pasar algo muy feo que nunca habíamos pasado. pero la prueba del amor gano y no nos dejamos vencer y nos volvimos más fuertes, este dia fue un dia muy lindo porque quise compartir contigo de una manera que nunca habíamos compartido, estuvimos los dos solitos yo solo quería estar acostado contigo abrazados y mirándonos a los ojos y dejar que el tiempo pase pero por dentro muriendome de amor por ti, esos abrazos tuyos que me dan paz me dan tranquilidad me hacen sentir como si solo existieramos tu y yo y eso es lo único que a mi me importa, porque en este mundo no existe otra persona que me importe mas que tu, tu eres esa unica persona que en esta vida me a hecho sentir bien y por eso quiero estar contigo siempre, ademas tuvimos nuestro momento intimo en donde no fue como los otros dias pero lo que sentia era mucho mejor que los otros dias, y por ultimo esa noche hicimos unos videitos los cuales veo cuando me siento solo y mi corazon se altera de la felicidad mis ojos no resisten al encanto de esos videos y se lagrimean, y haga lo que haga viendo ese video me imagino que estoy a tu lado y me siento super especia porque eso es lo que me haces sentir tu, tu me haces sentir especial.` },
-      { id: 'momento8', titulo: 'El 9 de abril', imagen: '/imagenes/sexto.jpg', texto: `Como olvidar esos momentos en los que compartimos juntos sin que nadie nos vea en donde solo somos tu y yo en donde hacemos de todo menos hablar, como olvidar ese 9 de abril en donde pudimos compartir ese momento tan especial del que tanto estábamos esperando que pasara y pasó y fue algo más que hermoso para mi fue un momento perfecto en el cual tu ya dejaste de ser mi novia y pasaste a ser mi mujer, mi chica y como nos hablamos ese dia con tanto  amor cuando yo ya estaba en mi casa fue hermoso, desde ese día todo cambió aún más, si yo ya estaba enamorado de ti ese dia del amor se multiplicó por 10 y cada dia fue creciendo más porque nos fuimos tratando mejor cada dia.` }
-    ];
+Eres mi paz cuando todo se siente difícil, eres mi felicidad en los días grises y eres la razón por la que sonrío sin darme cuenta.
+Gracias por existir, por elegirme, por quedarte, por amarme como lo haces.<br><br>
 
-    document.addEventListener('DOMContentLoaded', () => {
-      const container = document.querySelector('.grid');
-      momentos.forEach(m => {
-        const card = document.createElement('div');
-        card.className = 'max-w-xs bg-white rounded-3xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 hover:shadow-2xl cursor-pointer';
-        card.innerHTML = `
-          <div class="w-full h-48 overflow-hidden relative">
-            <img src="${m.imagen}" alt="${m.titulo}" class="w-full h-full object-cover">
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-pink-700 mb-2">${m.titulo}</h3>
-            <p class="text-sm text-gray-600">Haz clic para ver este momento especial...</p>
-          </div>
-        `;
-        card.addEventListener('click', () => toggleModal(m.id));
-        container.appendChild(card);
+No quiero solo momentos contigo… quiero una vida entera. 
+Quiero seguir creando recuerdos, tomando fotos juntos, soñando, creciendo y amándonos cada día más.<br><br>
 
-        const modal = document.createElement('div');
-        modal.id = m.id;
-        modal.className = 'fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden';
-        modal.innerHTML = `
-          <div class="bg-white rounded-2xl max-w-2xl w-full p-8 relative overflow-auto max-h-screen">
-            <button onclick="toggleModal('${m.id}')" class="absolute top-3 right-5 text-3xl text-gray-500 hover:text-pink-700">&times;</button>
-            <h3 class="text-3xl font-bold mb-4 text-pink-700">${m.titulo}</h3>
-            <img src="${m.imagen}" alt="${m.titulo}" class="rounded-lg mb-4 w-full object-contain">
-            <p class="text-gray-800 whitespace-pre-line leading-relaxed">${m.texto}</p>
-          </div>
-        `;
-        document.body.appendChild(modal);
-      });
-    });
-  </script>
+Briyith Nayeli, tú eres y siempre serás el amor de mi vida ❤️
+</div>
+
+<div class="gallery">
+<img src="imagenes/IMG_20251210_211927.jpg">
+<img src="imagenes/IMG_20260131_220133.jpg">
+<img src="imagenes/IMG-20250626-WA0039.jpg">
+<img src="imagenes/IMG-20250626-WA0040.jpg">
+<img src="imagenes/IMG-20250726-WA0104.jpg">
+<img src="imagenes/IMG-20251130-WA0136.jpg">
+<img src="imagenes/IMG-20260101-WA0052.jpg">
+<img src="imagenes/IMG-20260101-WA0071.jpg">
+<img src="imagenes/IMG-20260102-WA0015.jpg">
+<img src="imagenes/IMG-20260120-WA0062.jpg">
+<img src="imagenes/IMG-20260124-WA0052.jpg">
+<img src="imagenes/IMG-20260124-WA0053.jpg">
+</div>
+
+<button onclick="alert('Tu Eres Mi Sueño Hecho Realidad. Te Amo Con Toda Mi Alma 💞💘')">Haz clic aquí mi amor 💌</button>
+
+<script>
+function createHeart(){
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "❤";
+    heart.style.left = Math.random()*100 + "vw";
+    heart.style.fontSize = Math.random()*20 + 15 + "px";
+    heart.style.animationDuration = Math.random()*3 + 3 + "s";
+    document.body.appendChild(heart);
+    setTimeout(()=>{heart.remove();},6000);
+}
+setInterval(createHeart,300);
+</script>
+
 </body>
 </html>
